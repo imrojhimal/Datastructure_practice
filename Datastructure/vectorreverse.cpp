@@ -10,8 +10,7 @@ void vecreverse(vector<int>&v)
     {
         swap(v[start],v[end]);
         start++;
-        end--;
-       
+        end--;   
     }
     for(int val :v)
     {
