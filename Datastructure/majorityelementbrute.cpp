@@ -23,6 +23,6 @@ int majority(vector<int>&nums)
 }
 int main()
 {
-    vector<int> nums={2,2,1,1,1,2,2};
+    vector<int> nums={2,5,1,1,1,2,2};
     cout<<"the majority element is  "<<majority(nums);
 }
